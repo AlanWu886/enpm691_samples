@@ -1,3 +1,5 @@
+
+
 <b>Comment Section</b>
 <div id="t" align="center" style="padding: 20px; margin:10px; border: 1px solid grey;"></div>
 
@@ -6,11 +8,11 @@
 <div align="center">
   <form action="/action_page.php" >
     <label for="comment" style="padding: 5px">comment:</label>
-    <input type="text" [(ngModel)]="post" name="post" /><br><br>
+    <input type="text" [(ngModel)]="post" name="post" style="width: 70%"/><br><br>
     <input type="button" value="submit" (click)="addData(post)">
   </form>
   <br>
-  <input id="s" type="button" value="display" (click)="inject()">
+  
 </div>
-<p>{{post}}</p>
+
   
