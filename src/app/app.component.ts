@@ -12,7 +12,6 @@ export class AppComponent implements OnInit {
   //eaxmple 2: <img src="empty" onerror="javascript:document.getElementById('title').innerHTML = null;">
   //eaxmple 3: <img src="empty" onerror="javascript:console.log(window.navigator.userAgent);">
   //eaxmple 4: <img src="empty" onerror="javascript:console.log(window.localStorage);">
-  //<a href="javascript:alert('XSS')">redirect to...</a>
 
 
   // comments = ['<img src="empty" onerror="jjavascript:console.log(window.navigator.userAgent);">',
